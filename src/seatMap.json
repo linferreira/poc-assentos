@@ -1,0 +1,69 @@
+{
+  "aircraft": "DynamicPlane",
+  "data": [
+    {
+      "decks": [
+        {
+          "deckType": "main",
+          "rows": [
+            {
+              "rowNumber": 1,
+              "groups": [
+                [
+                  { "id": "A1", "available": true },
+                  { "id": "A2", "available": true },
+                  { "id": "A3", "available": false }
+                ],
+                [
+                  { "id": "A4", "available": true },
+                  { "id": "A5", "available": true },
+                  { "id": "A6", "available": true }
+                ],
+                [
+                  { "id": "B4", "available": false },
+                  { "id": "B5", "available": true },
+                  { "id": "B6", "available": true }
+                ]
+              ]
+            },
+            {
+              "rowNumber": 2,
+              "groups": [
+                [
+                  { "id": "B1", "available": true },
+                  { "id": "B2", "available": true },
+                  { "id": "B3", "available": false }
+                ],
+                [
+                  { "id": "B4", "available": false },
+                  { "id": "B5", "available": true },
+                  { "id": "B6", "available": true }
+                ],
+                [
+                  { "id": "B4", "available": false },
+                  { "id": "B5", "available": true },
+                  { "id": "B6", "available": true }
+                ]
+              ]
+            },
+            {
+              "rowNumber": 3,
+              "groups": [
+                [
+                  { "id": "C1", "available": true },
+                  { "id": "C2", "available": true },
+                  { "id": "C3", "available": true }
+                ],
+                [
+                  { "id": "C4", "available": false },
+                  { "id": "C5", "available": true },
+                  { "id": "C6", "available": true }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
